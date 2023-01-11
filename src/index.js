@@ -1,13 +1,13 @@
-import './style.css'
-import { setupCounter } from './pages/counter'
+import "./style.css";
+import { setupCounter } from "./pages/counter";
 
-document.querySelector('#app').innerHTML = `
+document.querySelector("#app").innerHTML = `
   <div>
     <h1>Hello Vite!</h1>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
   </div>
-`
+`;
 
-setupCounter(document.querySelector('#counter'))
+setupCounter(document.querySelector("#counter"));
